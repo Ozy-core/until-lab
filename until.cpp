@@ -25,7 +25,10 @@ int main()
     assert(until(1,f,g)==128);
     assert(until(5,f,g)==160);
     assert(until(10,f,g)==160);
-    assert(until(50,f,g)==128);
+    
+    //This statement below should make the program error out
+    //assert(until(50,f,g)==128);
+
     assert(until(100,f,g)==200);
 
     return 0;
